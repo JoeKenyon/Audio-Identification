@@ -1,0 +1,138 @@
+"""
+NORMAL
+[*] Times 1st result was correct: 140
+[*] Times 2nd result was correct: 12
+[*] Times 3rd result was correct: 7
+[*] Times No  result was correct: 54
+
+
+LOG scale
+[*] Times 1st result was correct: 107
+[*] Times 2nd result was correct: 7
+[*] Times 3rd result was correct: 1
+[*] Times No  result was correct: 98
+
+IDK what i did
+[*] Times 1st result was correct: 162
+[*] Times 2nd result was correct: 13
+[*] Times 3rd result was correct: 1
+[*] Times No  result was correct: 37
+
+
+fan value of 60
+[*] Times 1st result was correct: 166
+[*] Times 2nd result was correct: 6
+[*] Times 3rd result was correct: 3
+[*] Times No  result was correct: 38
+"""
+
+
+
+'''
+TARGET_SAMPLERATE = 4000#8192
+WINDOW_SIZE = 1024
+HOP_SIZE = 32
+NUM_BANDS = 6
+
+[*] Times 1st result was correct: 124
+[*] Times 2nd result was correct: 20
+[*] Times 3rd result was correct: 7
+[*] Times No  result was correct: 62
+'''
+
+
+'''
+TARGET_SAMPLERATE = 8000
+WINDOW_SIZE = 1024
+HOP_SIZE = 32
+NUM_BANDS = 7
+[*] Times 1st result was correct: 148
+[*] Times 2nd result was correct: 9
+[*] Times 3rd result was correct: 2
+[*] Times No  result was correct: 54
+TOOK LONG!!!!
+
+[*] Times 1st result was correct: 150
+[*] Times 2nd result was correct: 12
+[*] Times 3rd result was correct: 3
+[*] Times No  result was correct: 48
+WHAAA! thing out the loop
+'''
+
+
+
+
+'''
+TARGET_SAMPLERATE = 7000
+WINDOW_SIZE = 1024
+HOP_SIZE = 32
+NUM_BANDS = 6
+[*] Times 1st result was correct: 141
+[*] Times 2nd result was correct: 14
+[*] Times 3rd result was correct: 3
+[*] Times No  result was correct: 55
+'''
+
+
+
+
+'''
+TARGET_SAMPLERATE = 6000
+WINDOW_SIZE = 1024
+HOP_SIZE = 32
+NUM_BANDS = 3
+FASTER??!
+[*] Times 1st result was correct: 108
+[*] Times 2nd result was correct: 17
+[*] Times 3rd result was correct: 3
+[*] Times No  result was correct: 85
+'''
+
+'''
+    def __init__(self, 
+                target_samplerate=4000,#8192,#3000, 
+                window_size=512, 
+                hop_size=128,#32,#64, 
+                target_zone_size=50, 
+                num_bands=6, 
+                max_filter_size=(3,3),
+                ):
+=== Evaluation ===
+-> Times 1st result was correct: 168
+-> Times 2nd result was correct: 11
+-> Times 3rd result was correct: 1
+-> Times No  result was correct: 33
+TOP 3 ACCURACY: 84.51%
+
+
+
+def __init__(self, 
+            target_samplerate=8192,#3000, 
+            window_size=512, 
+            hop_size=128,#32,#64, 
+            target_zone_size=50, 
+            num_bands=6, 
+            max_filter_size=(3,3),
+            ):
+        
+=== Evaluation ===
+-> Times 1st result was correct: 173
+-> Times 2nd result was correct: 11
+-> Times 3rd result was correct: 0
+-> Times No  result was correct: 29
+TOP 3 ACCURACY: 86.38%
+
+=== Evaluation ===
+-> Times 1st result was correct: 182
+-> Times 2nd result was correct: 6
+-> Times 3rd result was correct: 1
+-> Times No  result was correct: 24
+TOP 3 ACCURACY: 88.73%
+
+=== Evaluation ===
+-> Times 1st result was correct: 178
+-> Times 2nd result was correct: 10
+-> Times 3rd result was correct: 3
+-> Times No  result was correct: 22
+TOP 3 ACCURACY: 89.67% WHOA
+'''
